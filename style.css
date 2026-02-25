@@ -549,38 +549,52 @@ footer ul li a:hover {
   }
 
   /* ==============  FOOTER ================= */
-  
-  .footer_container{
+
+  .footer_container {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 /* ==============   RESPONSIVENESS (FOR MOBILE) ================= */
 
-@media screen and (max-width:600px ){
-  .container{
+@media screen and (max-width: 600px) {
+  .container {
     width: var(--container-width-sm);
   }
 
   /* ==============  NAVBAR ================= */
-  .nav_menu{
+  .nav_menu {
     right: 3%;
   }
-  
+
   /* ============== HEADER ================= */
-  header{
+  header {
     height: 100vh;
   }
 
-  .header_container{
+  .header_container {
     grid-template-columns: 1fr;
     text-align: center;
     margin-top: 0;
   }
 
-  .header_left p{
-    margin-bottom: ;
+  .header_left p {
+    margin-bottom: 1.3rem;
   }
-  /* ==============  NAVBAR ================= */
 
+  /* ==============  CATEGORIES ================= */
+  .categories_right {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+  }
+
+  .category{
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  .category_icon{
+    margin-top: 4px;
+    display: inline-block;
+  }
 }
